@@ -1,5 +1,7 @@
 # SafeCheck
 
+My parents aren't too tech savvy and I got tired of their questions. Created this to act as a buffer.
+
 A simple Windows app that helps non-technical users check suspicious emails, phone calls, files, and links. Built for parents and family members who need a "second pair of eyes" when something looks off.
 
 ## Features
