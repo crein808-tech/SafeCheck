@@ -1,0 +1,54 @@
+<Page x:Class="SafeCheck.Views.Pages.HomePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Background="{StaticResource BgBrush}">
+    <ScrollViewer VerticalScrollBarVisibility="Auto" Padding="24">
+        <StackPanel MaxWidth="440" HorizontalAlignment="Center">
+            <TextBlock Text="SafeCheck" FontSize="28" FontWeight="Bold"
+                       Foreground="{StaticResource AccentBrush}" HorizontalAlignment="Center"
+                       Margin="0,12,0,4"/>
+            <TextBlock Text="Keep Your Family Safe Online" FontSize="14"
+                       Foreground="{StaticResource SubtleBrush}" HorizontalAlignment="Center"
+                       Margin="0,0,0,20"/>
+
+            <Button Style="{StaticResource BigButton}" Click="EmailCheck_Click">
+                <StackPanel>
+                    <TextBlock FontSize="18" FontWeight="SemiBold">Check Email</TextBlock>
+                    <TextBlock FontSize="13" Foreground="#888">Is this email address safe?</TextBlock>
+                </StackPanel>
+            </Button>
+
+            <Button Style="{StaticResource BigButton}" Click="PhoneCheck_Click">
+                <StackPanel>
+                    <TextBlock FontSize="18" FontWeight="SemiBold">Check Phone Number</TextBlock>
+                    <TextBlock FontSize="13" Foreground="#888">Is this caller trustworthy?</TextBlock>
+                </StackPanel>
+            </Button>
+
+            <Button Style="{StaticResource BigButton}" Click="FileCheck_Click">
+                <StackPanel>
+                    <TextBlock FontSize="18" FontWeight="SemiBold">Check File</TextBlock>
+                    <TextBlock FontSize="13" Foreground="#888">Is this downloaded file safe to open?</TextBlock>
+                </StackPanel>
+            </Button>
+
+            <Button Style="{StaticResource BigButton}" Click="LinkCheck_Click">
+                <StackPanel>
+                    <TextBlock FontSize="18" FontWeight="SemiBold">Check Link</TextBlock>
+                    <TextBlock FontSize="13" Foreground="#888">Is this website safe to visit?</TextBlock>
+                </StackPanel>
+            </Button>
+
+            <Button Style="{StaticResource BigButton}" Click="AskAI_Click">
+                <StackPanel>
+                    <TextBlock FontSize="18" FontWeight="SemiBold">Ask AI</TextBlock>
+                    <TextBlock FontSize="13" Foreground="#888">Get safety advice from an AI assistant</TextBlock>
+                </StackPanel>
+            </Button>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,16,0,0">
+                <Button Content="Settings" Style="{StaticResource BackButton}" Click="Settings_Click"/>
+            </StackPanel>
+        </StackPanel>
+    </ScrollViewer>
+</Page>
