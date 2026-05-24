@@ -138,3 +138,10 @@ SafeCheck/
 - EmailRep.io may rate-limit requests — the app falls back to AI analysis when this happens.
 - File uploads to VirusTotal are shared with security vendors (don't scan files containing sensitive personal data).
 - External lookup site links open in the browser — their availability is outside this app's control.
+
+What it looks like
+
+<img width="448" height="672" alt="sf1" src="https://github.com/user-attachments/assets/c6579fa4-e8f0-43d4-ab21-da2e6d385391" />
+<img width="453" height="373" alt="sf2" src="https://github.com/user-attachments/assets/0a1f6f00-8d34-4abf-8217-35db1cf6e47b" />
+<img width="432" height="703" alt="sf4" src="https://github.com/user-attachments/assets/9975249a-27e9-41dd-832c-87e00ab6aed2" />
+<img width="479" height="1024" alt="sf3" src="https://github.com/user-attachments/assets/3088335e-ae49-446c-822a-7331627691a9" />
